@@ -27,7 +27,7 @@ export default function SignIn() {
           Register
         </button>
       </div>
-      {isLogin ? <Login /> : "Register"}
+      {isLogin ? <Login /> : "Register Component"}
     </div>
   );
 }

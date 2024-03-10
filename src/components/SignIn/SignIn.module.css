@@ -49,6 +49,10 @@
   cursor: pointer;
 }
 
+.links button:hover {
+  border: 2px solid rgb(2, 48, 71);
+}
+
 .links button.active {
   box-sizing: border-box;
   border: 1px solid rgb(2, 48, 71);
