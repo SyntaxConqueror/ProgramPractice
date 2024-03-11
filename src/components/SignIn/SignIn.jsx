@@ -19,7 +19,6 @@ export default function SignIn() {
         >
           Login
         </button>
-        <div className={styles.divider}></div>
         <button
           className={`${styles.button} ${!isLogin ? styles.active : ""}`}
           onClick={() => handleFormSwitch("register")}
