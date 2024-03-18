@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="jest tests" tests="4" failures="0" errors="0" time="2.782">
+  <testsuite name="undefined" errors="0" failures="0" skipped="0" timestamp="2024-03-18T12:24:44" time="1.61" tests="4">
+    <testcase classname=" renders login/register text" name=" renders login/register text" time="0.042">
+    </testcase>
+    <testcase classname=" renders register button" name=" renders register button" time="0.005">
+    </testcase>
+    <testcase classname=" switches to login form when login button is clicked" name=" switches to login form when login button is clicked" time="0.006">
+    </testcase>
+    <testcase classname=" switches to register form when register button is clicked" name=" switches to register form when register button is clicked" time="0.01">
+    </testcase>
+  </testsuite>
+</testsuites>
