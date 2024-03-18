@@ -15,7 +15,7 @@ test("renders register button", () => {
 
 test("switches to login form when login button is clicked", () => {
   render(<SignIn />);
-  const loginForm = screen.getAllByPlaceholderText(/Email*/i)[0];
+  const loginForm = screen.getAllByPlaceholderText(/Login*/i)[0];
   expect(loginForm).toBeInTheDocument();
 });
 
@@ -23,6 +23,6 @@ test("switches to register form when register button is clicked", () => {
   render(<SignIn />);
   const registerButton = screen.getByText("Register");
   fireEvent.click(registerButton);
-  const registerForm = screen.getByText("Register Component");
+  const registerForm = screen.getAllByPlaceholderText(/Password*/i)[0];
   expect(registerForm).toBeInTheDocument();
 });
