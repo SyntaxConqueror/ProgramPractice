@@ -15,7 +15,7 @@ test("renders register button", () => {
 
 test("switches to login form when login button is clicked", () => {
   render(<SignIn />);
-  const loginForm = screen.getAllByPlaceholderText(/Login*/i)[0];
+  const loginForm = screen.getAllByPlaceholderText(/Your nickname*/i)[0];
   expect(loginForm).toBeInTheDocument();
 });
 
